@@ -5,7 +5,9 @@ This exercise is intended for those with a decent understanding of neural networ
 ## Directions
 
 1. Load data. One way to do this is via this link: https://pypi.python.org/pypi/python-mnist/. 
+
 `pip install mnist`
+
 Separate the training data into 50,000 points for training and 10,000 for validation.
 
 2. Set up your network inputs. You should look up how placeholders work. What is the shape of your data?
@@ -20,5 +22,5 @@ Separate the training data into 50,000 points for training and 10,000 for valida
 
 7. After training for a while (or something like every 1000 iterations), print out the accuracy of your classifier on the validation data. You will find tf.argmax to be useful.
 
-8. Improve your neural net! Look up how to use convolutional layers, add more layers, use more sophisicated optimizers, and train for longer!
+8. Improve your neural net architecture. Look up how to use convolutional layers, add more layers, use more sophisicated optimizers, and train for longer!
 
