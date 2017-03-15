@@ -18,7 +18,7 @@ MNIST is a commonly used beginner dataset. You get a training set of X and label
 
 1. Load data. One way to do this is via this link: https://pypi.python.org/pypi/python-mnist/. Use the data in the data/ directory
 ```
-pip install mnist
+pip install python-mnist
 ```
 ```
 from mnist import MNIST
