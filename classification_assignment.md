@@ -20,7 +20,7 @@ MNIST is a commonly used beginner dataset. You get a training set of X and label
 ```
 pip install python-mnist
 ```
-```
+```python
 from mnist import MNIST
 
 def load_dataset():
